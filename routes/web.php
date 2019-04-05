@@ -4,6 +4,11 @@ Route::get('/',function ()
 {
     return view('stepper');
 });
+//Route::get('/',function ()
+//{
+//    return view('wf');
+//});
+
 
 /*
 |--------------------------------------------------------------------------

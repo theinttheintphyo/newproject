@@ -107,7 +107,7 @@
 												<div class="icon-circle">
 													<i class="ti-check"></i>
 												</div>
-												ကိုယ္ေရးအခ်က္အလက္
+                                                ကိုယ္ေရးအခ်က္အလက္
 											</a>
 										</li>
 			                            <li>
@@ -115,7 +115,7 @@
 												<div class="icon-circle">
 													<i class="ti-check"></i>
 												</div>
-												အဆင့္ (၁)
+                                                အဆင့္(၁)
 											</a>
 										</li>
 			                            <li>
@@ -123,7 +123,7 @@
 												<div class="icon-circle">
 													<i class="ti-check"></i>
 												</div>
-												အဆင့္ (၂)
+                                                အဆင့္(၂)
 											</a>
 										</li>
 										<li>
@@ -131,7 +131,7 @@
 												<div class="icon-circle">
 													<i class="ti-check"></i>
 												</div>
-												အ ေျဖ
+                                                အေျဖ
 											</a>
 										</li>
 			                        </ul>
@@ -162,7 +162,7 @@
 												</div>
 												<div class="form-group">
 													{{--<input name="lastname" type="text" class="form-control" placeholder="Smith...">--}}
-													<label>  သြားေရာက္ ေလွ်ာက္ထားလိုေသာဘဏ္ခြဲ <small>(required)</small></label>
+													<label>  သြားေရာက္ေလွ်ာက္ထားလိုေသာဘဏ္ခြဲ <small>(required)</small></label>
 												</div>
 
 
@@ -203,7 +203,7 @@
 									<!-- 2 step2-->
 		                            <div class="tab-pane" id="account">
 		                                <h5 class="info-text" style="color:darkblue;"> အဆင့္(၁)-အိမ္ရာေခ်းေငြ ပမာဏကို တြက္ခ်က္ရန္ </h5>
-										အိမ္ျခံေျမ အမ်ိ ဳးအစား
+                                        အိမ်ခြံမြေအမျိုးအစား
 										<div class="col-sm-8 col-sm-offset-2">
 										<ul class="nav nav-pills nav-pills-icons" role="tablist">
 											<!--
@@ -254,13 +254,21 @@
 											<div class="tab-pane active" id="dashboard-1">
 												<br>
 												<div class="form-group">
-													<label>အေဆာက္အဦးတန္ဖိုး (ျမန္မာက်ပ္ျဖင့္) <small></small></label>
+													<label> အဆောက်အဦးတန်ဖိုး (ျမန္မာက်ပ္ျဖင့္) <small></small></label>
 													<input name="firstname" type="text" class="form-control" placeholder="">
 												</div>
 												<br>
 												<div class="form-group">
 													<label>ကနဦးေငြေပးေခ် <small></small></label>
 													<input name="firstname" type="text" class="form-control" placeholder="">
+                                                    &nbsp; &nbsp;
+                                                    <label>ရာခိုင္ႏွဴန္း<small></small></label>
+                                                    <select name="country" class="form-control">
+                                                        <option > ၃%</option>
+                                                        <option value="Bago"> Bago</option>
+                                                        <option value="Naypyitaw"> Naypyitaw</option>
+                                                        <option value="...">...</option>
+                                                    </select>
 												</div>
 												<br>
 												<div class="form-group">
@@ -301,13 +309,68 @@
 
 											</div>
 											<div class="tab-pane" id="tasks-1">
-												Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-												<br><br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                                                <br>
+                                                <div class="form-group">
+                                                    <label> အဆောက်အဦးတန်ဖိုး (ျမန္မာက်ပ္ျဖင့္) <small></small></label>
+                                                    <input name="firstname" type="text" class="form-control" placeholder="">
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label>ကနဦးေငြေပးေခ် <small></small></label>
+                                                    <input name="firstname" type="text" class="form-control" placeholder="">
+                                                    &nbsp; &nbsp;
+                                                    <label>ရာခိုင္ႏွဴန္း<small></small></label>
+                                                    <select name="country" class="form-control">
+                                                        <option > ၃%</option>
+                                                        <option value="Bago"> Bago</option>
+                                                        <option value="Naypyitaw"> Naypyitaw</option>
+                                                        <option value="...">...</option>
+                                                    </select>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    {{--<input name="lastname" type="text" class="form-control" placeholder="Smith...">--}}
+                                                    <label>ေခ်းေငြသက္တမ္း <small>(required)</small></label>
+                                                </div>
+                                                <br>
+                                                <select name="country" class="form-control">
+                                                    <option > ၃ ႏွစ္</option>
+                                                    <option value="Bago"> Bago</option>
+                                                    <option value="Naypyitaw"> Naypyitaw</option>
+                                                    <option value="...">...</option>
+                                                </select>
 											</div>
 											<div class="tab-pane active" id="d-1">
-												Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-												<br><br>
-												Dramatically visualize customer directed convergence without revolutionary ROI.
+                                                <br>
+                                                <div class="form-group">
+                                                    <label> အဆောက်အဦးတန်ဖိုး (ျမန္မာက်ပ္ျဖင့္) <small></small></label>
+                                                    <input name="firstname" type="text" class="form-control" placeholder="">
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label>ကနဦးေငြေပးေခ် <small></small></label>
+                                                    <input name="firstname" type="text" class="form-control" placeholder="">
+                                                    &nbsp; &nbsp;
+                                                    <label>ရာခိုင္ႏွဴန္း<small></small></label>
+                                                    <select name="country" class="form-control">
+                                                        <option > ၃%</option>
+                                                        <option value="Bago"> Bago</option>
+                                                        <option value="Naypyitaw"> Naypyitaw</option>
+                                                        <option value="...">...</option>
+                                                    </select>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    {{--<input name="lastname" type="text" class="form-control" placeholder="Smith...">--}}
+                                                    <label>ေခ်းေငြသက္တမ္း <small>(required)</small></label>
+                                                </div>
+                                                <br>
+                                                <select name="country" class="form-control">
+                                                    <option > ၃ ႏွစ္</option>
+                                                    <option value="Bago"> Bago</option>
+                                                    <option value="Naypyitaw"> Naypyitaw</option>
+                                                    <option value="...">...</option>
+                                                </select>
 											</div>
 										</div>
 										</div>
@@ -316,62 +379,81 @@
 									<!-- 3 step3-->
 
 		                            <div class="tab-pane" id="address">
-										<h5 class="info-text"> အဆင့် (၂) -ဘဏ ရေးအခြေအနေ</h5>
+										<h5 class="info-text"> အဆင့်(၂)- ဘဏ ရေးအခြေအနေ </h5>
 										<p>အလုပ္အကိုင္အမ်ိဳးအစား</p>
                                         <div class="row">
 
 
                                             <div class="col-sm-8 col-sm-offset-2">
+                                                <ul class="nav nav-pills nav-pills-icons" role="tablist">
+                                                    <!--
+                                                        color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                                                    -->
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#dashboard-1" role="tab" data-toggle="tab">
+                                                            <i class="material-icons">dashboard</i>
+                                                            Dashboard
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#schedule-1" role="tab" data-toggle="tab">
+                                                            <i class="material-icons">schedule</i>
+                                                            Schedule
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#tasks-1" role="tab" data-toggle="tab">
+                                                            <i class="material-icons">list</i>
+                                                            Tasks
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content tab-space">
+                                                    <div class="tab-pane active" id="dashboard-1">
+                                                        Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
+                                                        <br><br>
+                                                        Dramatically visualize customer directed convergence without revolutionary ROI.
+                                                    </div>
+                                                    <div class="tab-pane" id="schedule-1">
+                                                        Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
+                                                        <br><br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
+                                                    </div>
+                                                    <div class="tab-pane" id="tasks-1">
+                                                        Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                                                        <br><br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+                                                    </div>
+                                                </div>
 
+                                                {{--<div class="col-sm-4">--}}
+                                                    {{--<div class="choice" data-toggle="wizard-checkbox">--}}
+                                                        {{--<input type="checkbox" name="jobb" value="Design">--}}
+                                                        {{--<div class="card card-checkboxes card-hover-effect">--}}
+                                                            {{--<i class="ti-paint-roller"></i>--}}
+                                                            {{--<p>Design</p>--}}
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="col-sm-4">--}}
+                                                    {{--<div class="choice" data-toggle="wizard-checkbox">--}}
+                                                        {{--<input type="checkbox" name="jobb" value="Code">--}}
+                                                        {{--<div class="card card-checkboxes card-hover-effect">--}}
+                                                            {{--<i class="ti-pencil-alt"></i>--}}
+                                                            {{--<p>Code</p>--}}
 
-                                                <div class="col-sm-4">
-                                                    <div class="choice" data-toggle="wizard-checkbox">
-                                                        <input type="checkbox" name="jobb" value="Design">
-                                                        <div class="card card-checkboxes card-hover-effect">
-                                                            <a class="nav-link" href="#design" role="tab" data-toggle="tab">
-                                                            <i class="ti-paint-roller"></i>
-                                                            <p>Design</p>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choice" data-toggle="wizard-checkbox">
-                                                        <input type="checkbox" name="jobb" value="Code">
-                                                        <div class="card card-checkboxes card-hover-effect">
-                                                            <a class="nav-link" href="#code" role="tab" data-toggle="tab">
-                                                            <i class="ti-pencil-alt"></i>
-                                                            <p>Code</p>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-4">
-                                                    <div class="choice" data-toggle="wizard-checkbox">
-                                                        <input type="checkbox" name="jobb" value="Develop">
-                                                        <div class="card card-checkboxes card-hover-effect">
-                                                            <i class="ti-star"></i>
-                                                            <p>Develop</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-8 col-sm-offset-2">
-                                                    <div>
-                                                        <div class="tab-pane" id="design">
-                                                            H
-                                                        </div>
-                                                        <div class="tab-pane" id="code">
-                                                            Hello
-                                                        </div>
-                                                    </div>
-
-                                                </div>
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                                {{--<div class="col-sm-4">--}}
+                                                    {{--<div class="choice" data-toggle="wizard-checkbox">--}}
+                                                        {{--<input type="checkbox" name="jobb" value="Develop">--}}
+                                                        {{--<div class="card card-checkboxes card-hover-effect">--}}
+                                                            {{--<i class="ti-star"></i>--}}
+                                                            {{--<p>Develop</p>--}}
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
                                             </div>
                                         </div>
-
-
                                     </div>
 
 
